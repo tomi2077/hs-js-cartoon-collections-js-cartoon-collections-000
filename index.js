@@ -9,6 +9,14 @@ function dwarfRollCall(dwarves) {
 dwarfRollCall(["Doc", "Dopey", "Bashful", "Grumpy"]);
 
 
+
+
+
+
+
+
+
+
 function summonCaptainPlanet(planeteerCalls){
 var arr = [];
 for (var i of planeteerCalls){
@@ -52,5 +60,16 @@ for (var j = 0; j < cheese.length; j++){
 return "no cheese!";
 }
 findTheCheese(["tomato soup", "cheddar", "oyster crackers", "gouda"]);
+
+
+function wordswithB(arr){
+  var letterB =[];
+  
+  for (var i =0; i<arr.length;i++){
+    if (arr[i][0] === "b"){
+      letterB.push(arr[i])
+     }
+  } return letterB
+}
 
 
